@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: aliceblue;
+    padding: 10px; 
+    display: flex; /* esta propriedade transforma o container em um display flex (flexivel) */
+    align-items: center; /* esta propriedade faz com que os itens sejam alinhados na linha vertical => | */
+    justify-content: space-between; /* esta propriedade faz com que os itens sejam alinhados na linha horizontal*/
+}
+
+/* aplica estilos apenas a elementos filhos dentro de outro elemento,
+independente do nível (ou seja, aplica a img dentro de header,
+mesmo que o img esteja dentro de outro elemento) */
+header img {
+    /* px é uma unidade fixa (pixels) */
+    /* % é uma unidade relativa, ou seja, que se adapta */
+    width: 10%;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+header i {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none; /* retira as decorações do texto, como o sublinhado */
+    font-size: large;
+}
+
+/* classes no css devem ser declaradas com ponto '.' */
+.banner {
+    background-image: url(https://api.senacrs.com.br/bff/site-senac/v1/file/c9eccbd05b675439c61d734fa693e64ba46a6f.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cursos {
+    height: 30vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.curso-imagem {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    overflow: hidden; /* impede que um elemento filho 'saia para fora' */
+    border: 5px solid orange;
+}
+
+.curso-imagem img {
+    height: 100%;
+}
+
+.borda-azul {
+    border: 5px solid blue;
+}
+
+.curso h3 {
+    font-size: small;
+    font-weight: normal
+}
