@@ -1,0 +1,6 @@
+span {
+    width: 200px;
+    background-color: darkviolet;
+}
+
+/* Não por que o span é um elemento inline :3 */
