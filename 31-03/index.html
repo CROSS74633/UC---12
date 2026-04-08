@@ -1,0 +1,78 @@
+<!-- 
+    HTML é uma linguagem de marcação.
+    ou seja, ela não possui lógica
+    o que ela faz?
+    cada elemento possui uma etiqueta que chamamos de 'tag,
+    quando queremos criar algo, chamamos a 'tag' que representa
+    aquele elemento. ou seja, HTML server apenas para dizer
+    o que existe em uma página 
+
+    as tags precisam ser fechadas. <html> </html>
+    as tags tambem possuiem atributos <html lang=e"n"> </html>
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- html é a tag que deve envolver todo o documento -->
+
+<head> <!-- Contem várias informações a respeito da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- Titulo da página -->
+</head>
+
+<body><!-- Dentro dessa tag é que vamos criar nossos elementos que vão aparecer para o usuário. Body significa 'corpo'. -->
+    <!-- he é a tag de titulo principal -->
+    <h1>Sobre html</h1>
+    <h2>O que é html</h2>
+    <h3>A respeito da linguagem de marcação</h3>
+    <!-- <p></p> é a tag para escrever um parágrafo -->
+     <!-- <br> é a tag para quebrar linha > BR vemde 'break row', que significa 'quebrar linha' -->
+    <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar a estrutura de páginas web. Ele utiliza tags para organizar o conteúdo — como títulos, parágrafos, imagens e links — formando o esqueleto do site, que é interpretado pelos navegadores.</p>
+
+    <!-- <a></a> é a tag para links. 'a' vem de 'áncora'
+        Ela sempre é acompanha do atributo href="", que indica
+        para qual link ela vai direcionar o usuário -->
+<a href="https://discord.com/channels/1202750629295169617/1202752928608157727" target="_blank"> clique aqui</a>   
+
+
+
+<!-- <img> é a tag de imagem.
+    ela sempre vem com os atributos src="", que indica a origem da imagem (onde ela está) e o atributo alt"", que deve conter um texto explicativo sobre a imagem.
+    ele é usado caso a imagem não carregue ou por software de acessibilidade-->
+
+<!-- Imagem via link -->
+<img src="https://i.pinimg.com/1200x/85/50/3c/85503cc63bf15662c92ebe7cd770fcdd.jpg" alt="Arte">
+
+<!-- Imagem baixada -->
+<img src="./assets/images/wallpaper blue period.jpg" alt="Blue period">
+
+
+
+<!-- <button> </button> é a tag que criar um botão -->
+<button>clique aqui</button>
+
+<ol><!-- Unordered list / Lista Ordenada (ou seja, cria uma lista que tem numeros) -->
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+
+<ul><!-- Unordered list / Lista Desordenada (ou seja, cria uma lista sem numerações) -->
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

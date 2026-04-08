@@ -1,0 +1,47 @@
+/* 
+    Css aplica estilos de acordo coma tag
+*/
+
+/* 
+    Exemplo: se eu quiser trocar a cor de fundo da página,
+    posso utilizar o seletor 'body':
+
+    body {
+        estilo que quero aplicar
+    }
+*/
+
+body {
+    background-color: crimson; /* troca a cor de fundo */
+    color: white; /* troca a cor de tudo que é texto */
+    font-family: Arial, Helvetica, sans-serif; /* troca o estilo da fonte */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 500px; /* largura do elemento */
+    /*height: 500px;*/ /* altura do elemento */
+}
+
+button {
+    background-color: rgb(23, 135, 228);
+    border: none; /* retira a borda padrão */
+    border-radius: 5px; /* cantos arrendondados */
+    color: rgb(255, 255, 255);
+    padding: 7px;
+}
+
+button:hover {
+    background-color: rgb(231, 18, 18);
+    color: rgb(0, 0, 0);
+    cursor: pointer; /* muda o icone do cursor do maouse quando passar por cima */
+}
+
+p {
+    margin: 5%;
+    
+}
