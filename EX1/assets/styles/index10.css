@@ -1,0 +1,7 @@
+.box1, .box2, .box3 {
+    width: 30%;
+    padding: 30px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+}

@@ -1,0 +1,8 @@
+.box {
+    width: 200px;
+    padding: 30px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+/* Não tinha nenhum regulador como o box sizing */

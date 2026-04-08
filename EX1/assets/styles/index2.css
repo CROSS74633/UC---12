@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    background-color: gray;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+/* Ele se ajustou para um tamanho menor para se adequar a caixa */

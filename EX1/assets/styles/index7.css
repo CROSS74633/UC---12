@@ -1,0 +1,7 @@
+.box1, .box2 {
+    background-color: aqua;
+    height: 100px;
+    margin: 20px;
+}
+
+/* 5px, por que não a margin */

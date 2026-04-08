@@ -1,0 +1,17 @@
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+}
+
+.box1 {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    margin: 50px;
+    padding: 50px;
+}
+
+/* A margin */
