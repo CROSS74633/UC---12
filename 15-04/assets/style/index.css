@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+
+.Mesa {
+    display: flex;
+    gap: 20px;
+}
+
+.Card {
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
+
+.Card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.Interaçoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Impecionar {
+    background: white;
+    color: black;
+}
+
+.Impecionar2 {
+    background: black;
+    color: white;
+}
+
+/* cores dos cards */
+.Charmander { background: #e74c3c; }
+.Squirtle { background: #3498db; }
+.Bulbassauro { background: #2ecc71; }
