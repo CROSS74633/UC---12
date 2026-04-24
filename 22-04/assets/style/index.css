@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    background-image: url(../images/Kiaser.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ .card {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+
+.active {
+    display: flex;
+}
+
+.container .escolhas {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+
+
+
+
+.escolhas button:nth-child(1){
+    background-color: blue;
+    color: white;
+}
+
+.escolhas button:nth-child(2){
+    background-color: rgb(37, 206, 178);
+    color: white;
+}
+
+.escolhas button:nth-child(3){
+    background-color: rgb(61, 168, 230);
+    color: white;
+}
+
+.escolhas button:nth-child(4){
+    background-color: rgb(195, 195, 206);
+    color: white;
+}
+
+.escolhas button:nth-child(5){
+    background-color: rgb(66, 240, 109);
+    color: white;
+}

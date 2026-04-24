@@ -9,21 +9,23 @@ body {
 
 .Mesa {
     display: flex;
-    gap: 20px;
+    gap: 300px;
+    flex-direction: row;
 }
 
 .Card {
     width: 220px;
+    transform: scale(130%);
     padding: 15px;
     border-radius: 12px;
     text-align: center;
     color: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    box-shadow: 0 10px 20px rgba(148, 142, 142, 0.4);
     transition: 0.3s;
 }
 
 .Card:hover {
-    transform: scale(1.05);
+    transform: scale(1.70);
 }
 
 .Card img {
@@ -41,6 +43,14 @@ body {
     margin-top: 10px;
 }
 
+.Interaçoes a {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
 button {
     padding: 8px;
     border: none;
@@ -54,12 +64,14 @@ button {
     color: black;
 }
 
+
+
 .Impecionar2 {
     background: black;
     color: white;
 }
 
 /* cores dos cards */
-.Charmander { background: #e74c3c; }
-.Squirtle { background: #3498db; }
-.Bulbassauro { background: #2ecc71; }
+.Charmander { background: linear-gradient(15deg, #e74c3c, red) }
+.Squirtle { background: linear-gradient(15deg, #3498db, blue) }
+.Bulbassauro { background: linear-gradient(15deg, #2ecc71, green) }
